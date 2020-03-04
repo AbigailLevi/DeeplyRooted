@@ -1,3 +1,9 @@
 import React from 'react';
 
-Home 
+const Home = ()=> {
+    retrun (
+        <div>
+
+        </div>
+    )
+}
