@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/Navbar';
-import foot from './components/footer';
+import Footer from '../src/components/footer';
+import Home from '../src/views/Home'
 
 function App() {
   return (
+    <React.Fragment>
     <NavBar/>
-    
+    <Home/>
+    <Footer/>
+    </React.Fragment>
   );
 }
 

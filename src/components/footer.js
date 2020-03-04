@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const foot = () => {
-    return (
-        <div className="card-footer text-muted">
-        2 days ago
-      </div>
-    )
-}
+const Footer = () => {
+  return <p>This is tEst in Footer</p>;
+};
 
-export default foot;
+export default Footer;
