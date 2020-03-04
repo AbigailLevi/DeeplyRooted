@@ -1,15 +1,21 @@
-.navbar {
- height:90px ;
- background-color: rgb(220,220,220);
-} 
-  body {
-    /* Location of the image */
-    /* background-image: url(https://sf.co.ua/14/07/wallpaper-287175.jpg);*/
+body {
+  /* Location of the image */
+  /* background-image: url(https://sf.co.ua/14/07/wallpaper-287175.jpg);*/
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
-  }
- 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.navbar {
+  height: 90px;
+  background-color: rgb(220, 220, 220);
+}
+
+.logo-img {
+  height: 85px;
+  width: 220px;
+  margin-top: -18px;
+}
