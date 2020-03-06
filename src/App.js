@@ -1,24 +1,32 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./components/Navbar";
-import Login from "./components/Login";
-import Footer from "../src/components/footer";
+
+import Login from "./views/Login";
 import Home from "../src/views/Home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 
 function App() {
   return (
     <React.Fragment>
-      <NavBar />
       <Router>
         <Switch>
-          <Route path="/Login">
+          <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/" exact={true}>
+            <Redirect to="/login" />
           </Route>
         </Switch>
       </Router>
-      // <Home />
-      // <Footer />
     </React.Fragment>
   );
 }
