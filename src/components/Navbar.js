@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/Deeply.png";
 import { Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -22,11 +23,13 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
           <a className="nav-item nav-link active" href="#">
-            <Link to="/login">Login</Link>
+            <div className="navbar-right">
+              <BrowserRouter>
+                <Link to="/login">Login</Link>
+              </BrowserRouter>
+            </div>
+
             <span className="sr-only">(current)</span>
-          </a>
-          <a className="nav-item nav-link" href="#">
-            Sign Up
           </a>
         </div>
       </div>

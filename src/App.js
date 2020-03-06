@@ -8,14 +8,21 @@ import {
   Switch,
   Route,
   Link,
-  Redirect
+  Redirect,
+  NavLink
 } from "react-router-dom";
+import Intro from "./views/Intro";
+import NavBar from "./components/Navbar";
 
 function App() {
   return (
     <React.Fragment>
+      <NavBar/>
       <Router>
         <Switch>
+          <Route path="/intro">
+            <Intro />
+          </Route>
           <Route path="/login">
             <Login />
           </Route>
@@ -23,7 +30,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/" exact={true}>
-            <Redirect to="/login" />
+            <Redirect to="/intro" />
           </Route>
         </Switch>
       </Router>
