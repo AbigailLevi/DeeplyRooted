@@ -17,8 +17,8 @@ import NavBar from "./components/Navbar";
 function App() {
   return (
     <React.Fragment>
-      <NavBar/>
       <Router>
+        <NavBar />
         <Switch>
           <Route path="/intro">
             <Intro />
