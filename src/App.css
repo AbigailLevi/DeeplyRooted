@@ -1,16 +1,14 @@
-body {
-  /* Location of the image */
+/* body { 
   background-image: url(https://sf.co.ua/14/07/wallpaper-287175.jpg);
-
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
-}
+} */
 
 .navbar {
-  background-color: rgb(220, 220, 220);
+  background-color:beige;
 }
 
 .logo-img {
@@ -28,3 +26,4 @@ body {
 .navbar-nav {
   margin-right: auto;
 }
+

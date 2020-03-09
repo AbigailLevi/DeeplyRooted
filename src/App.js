@@ -20,7 +20,7 @@ function App() {
             <Login />
           </Route>
           <Route path="/home">
-            <Home />
+            <Home /> 
           </Route>
           <Route path="/" exact={true}>
             <Redirect to="/login" />

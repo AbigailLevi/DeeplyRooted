@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://www.wallpaperflare.com/static/794/89/141/green-nature-sea-clouds-wallpaper.jpg);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    background-image: linear-gradient;
+    
+}
+.jumbotron{
+    background-image: url(https://peoplemagazine.com.pk/wp-content/uploads/2019/05/aloe-vera-gel-uses-723x406.jpg);
+    background-size:auto!important;
+    background-repeat:no-repeat;
+    background-position: center top;
+  }
+ 
+     
