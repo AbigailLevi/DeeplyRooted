@@ -1,19 +1,35 @@
 body {
-    background-image: url(https://www.wallpaperflare.com/static/794/89/141/green-nature-sea-clouds-wallpaper.jpg);
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: top center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed;
-    background-image: linear-gradient;
-    
+    background-color:white;
 }
 .jumbotron{
-    background-image: url(https://peoplemagazine.com.pk/wp-content/uploads/2019/05/aloe-vera-gel-uses-723x406.jpg);
-    background-size:auto!important;
-    background-repeat:no-repeat;
-    background-position: center top;
+    background-image: url(https://www.wikihow.com/images/1/1f/Hollow-Out-a-Coconut-Step-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 17px;
+    cursor: pointer;
+    text-align:Center;
+    background-position: center center; 
+    height: 500px;
   }
+  .jumbotron h1{
+    color:rgb(24, 112, 68);
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.jumbotron p{
+    color:moccasin;
+    font-weight: 900;
+}
+.header{
+    text-align: center;
+}
+ 
  
      
