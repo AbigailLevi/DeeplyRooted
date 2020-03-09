@@ -1,10 +1,20 @@
+body {
+  background-image: url(https://championsupplies.com/wp-content/uploads/2019/09/aloe-vera-beautiful-color-904621.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
 .text1 {
   text-align: center;
-  color: black;
+  color: rgba(115, 180, 108, 0.89);
   font-size: 300%;
+  font-style: italic;
 }
 .paragraph1 {
   text-align: center;
-  color: black;
+  color: rgba(115, 180, 108, 0.89);
+  font-size: 125%;
+ font-style: oblique;
 }
-

@@ -6,7 +6,6 @@ const Login = () => {
     <div className="login">
       <div className="login__container">
         <div className="login__container--img">
-          <img className="login-img" src="..." alt="login-img" />
           <h2>Log in</h2>
         </div>
         <div className="login__container--input">
@@ -20,7 +19,7 @@ const Login = () => {
               placeholder="Enter your Password"
             />
           </form>
-          <button type="button">Log in</button>
+          <button className="button" type="button">Log in</button>
         </div>
       </div>
     </div>
