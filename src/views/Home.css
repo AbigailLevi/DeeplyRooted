@@ -1,12 +1,10 @@
-body {
-    -moz-background-size: cover;
+.home-bg {
+    background: url(https://www.bugtech.com/wp-content/uploads/2019/06/AdobeStock_84512474-1920x1200.jpeg)no-repeat center center fixed;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: top center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed;
-    background-color: white;
-}
+    }
 .jumbotron{
     background-image: url(https://www.wikihow.com/images/1/1f/Hollow-Out-a-Coconut-Step-11.jpg);
     background-repeat: no-repeat;

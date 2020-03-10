@@ -9,21 +9,6 @@ const NavBar = () => {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Link
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Link
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Link
-            </a>
-          </li>
         </ul>
       </div>
       <div className="mx-auto order-0">
@@ -42,14 +27,12 @@ const NavBar = () => {
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Sign Up
-            </a>
+        
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
             <div className="navbar-right mr-2 navbar-right">
-              <Link to="/login">Login</Link>
+              <Link to="/login">Log In</Link>
             </div>
             </a>
           </li>

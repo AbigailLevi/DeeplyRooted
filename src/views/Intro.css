@@ -1,20 +1,50 @@
-body {
-  background-image: url(https://cdn.wallpapersafari.com/34/14/6YOyvB.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+html {
+  background: url(https://championsupplies.com/wp-content/uploads/2019/09/aloe-vera-beautiful-color-904621.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-color: #464646;
-}
+  }
 .text1 {
+  padding-top: 40px;
   text-align: center;
-  color: rgba(115, 180, 108, 0.89);
+  color: rgba(92, 155, 85, 0.89);
   font-size: 300%;
   font-style: italic;
+  word-spacing: 5px;
 }
 .paragraph1 {
+  margin-top: 10px;
   text-align: center;
-  color: rgba(115, 180, 108, 0.89);
+  color: rgba(30, 75, 25, 0.89);
   font-size: 125%;
  font-style: oblique;
 }
+.carousel-inner{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:150px;
+  width:100%; 
+}
+.firstcarousel{
+text-align: center;
+font-size: 40px;
+color: rgb(23, 82, 26);
+font-style: oblique;
+}
+
+.secondcarousel{
+font-size: 40px;
+text-align: center;
+color: rgb(19, 90, 19);
+font-style: italic;
+}
+.thirdcarousel{
+font-size: 40px;
+text-align: center;
+color: darkgreen;
+font-style: oblique;
+
+}
+

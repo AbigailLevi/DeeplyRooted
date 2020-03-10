@@ -4,6 +4,7 @@ import NavBar from "../components/Navbar";
 
 const Home = () => {
   return (
+    <html className="home-bg">
     <div>
   <div className="jumbotron">
  <h1 className="display-4">Natural Is A Trend</h1>
@@ -39,7 +40,7 @@ Aloe vera is a popular product that people use on their skin after sun exposure.
 
 
 </div>
-
+</html>
   );
 };
 
