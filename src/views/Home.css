@@ -5,7 +5,7 @@ body {
     background-position: top center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed;
-    background-color:white;
+    background-color: white;
 }
 .jumbotron{
     background-image: url(https://www.wikihow.com/images/1/1f/Hollow-Out-a-Coconut-Step-11.jpg);
@@ -29,7 +29,15 @@ body {
 }
 .header{
     text-align: center;
+
 }
+h2{
+    text-align: center;
+}
+.p1{
+    text-align:left;
+}
+
  
  
      
