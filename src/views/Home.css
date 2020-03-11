@@ -1,41 +1,46 @@
-.home-bg {
-    background: url(https://www.bugtech.com/wp-content/uploads/2019/06/AdobeStock_84512474-1920x1200.jpeg)no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-.jumbotron{
-    background-image: url(https://www.wikihow.com/images/1/1f/Hollow-Out-a-Coconut-Step-11.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 17px;
-    cursor: pointer;
-    text-align:Center;
-    background-position: center center; 
-    height: 500px;
-  }
-  .jumbotron h1{
-    color:rgb(24, 112, 68);
-    font-weight: 700;
-    font-style: oblique;
+.colorback{
+  background-image: linear-gradient(to bottom right, rgb(57, 180, 83), rgb(197, 166, 25));
 }
 
-.jumbotron p{
-    color:moccasin;
-    font-weight: 900;
+.nav2 {
+  background-color: rgba(47, 104, 71, 0.596);
+  margin-top: -33px;
 }
-.header{
-    text-align: center;
-
+.bottomN {
+  margin: auto;
+  justify-content: space-between;
 }
-h2{
-    text-align: center;
+.jumbotron {
+  background-image: url("https://mission-produce-static.sfo2.digitaloceanspaces.com/our-avocados/our-avocado-header@2x.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #ff6a00;
 }
-.p1{
-    text-align:left;
+.jumbotron .container {
+  position: relative;
+  top: 50px;
 }
-
- 
- 
-     
+.thehead {
+  text-align: center;
+  margin-top: 20px;
+  font-style: initial;
+}
+.discribe {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.thehead2 {
+  text-align: center;
+  margin-top: 30px;
+  font-style: initial;
+}
+.discribe2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
