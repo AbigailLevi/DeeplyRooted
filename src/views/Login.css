@@ -1,13 +1,12 @@
-
-
 .login {
   width: 100%;
+  height: 840px;
 }
 .login__container {
-  width: 30%;
+  width: 40%;
   margin: 3% auto;
   height: auto;
-  background-color: rgba(151, 219, 96, 0.342);
+  background-color: rgba(151, 219, 96, 0.3);
   display: flex;
   flex-direction: column;
   border-radius: 25px;
@@ -21,39 +20,49 @@
   border-radius: 20px 20px 0px 0px;
   text-align: center;
   padding-top: 150px;
+  opacity: 0.6;
 }
 .login__container--input {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 28px 25px;
-  justify-content: space-between;
+  width: 50%;
 }
 .login__container--input input {
-  margin-bottom: 80px;
-  margin-right: 120px;
+  margin-bottom: 60px;
   background-color: transparent;
   border: none;
   box-shadow: none;
   color: black;
   font-size: 20px;
   border-bottom: white solid 2px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50%;
+  outline: none;
 }
 .login__container--input label {
   font-style: bold;
-  font-size: 25px;
+  font-size: 120%;
   padding-right: 10px;
+  margin-left: 50%;
 }
 .button {
   border-radius: 25px;
-  background-color: silver;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-style: none;
   font-size: 16px;
   font-weight: bold;
   height: 50px;
-  width: 50%;
-
+  width: 125%;
+  margin-left: 50%;
+  outline: none;
 }
-.login2{
+.login2 {
   font-size: 50px;
   text-align: center;
-  color: rgba(204, 204, 10, 0.904);
+  color: black;
 }

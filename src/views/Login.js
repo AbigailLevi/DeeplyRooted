@@ -29,14 +29,14 @@ const Login = () => {
       });
   };
   return (
-    <div className="what-we-did">
+    <div className="login">
       <div className="login__container">
         <div className="login__container--img">
           <h1 className="login2">Log in</h1>
         </div>
         <div className="login__container--input">
           <form onSubmit={formOnSubmitHandler}>
-            <label for="fname">email</label>
+            <label for="fname">Email</label>
             <input
               type="text"
               id="fname"

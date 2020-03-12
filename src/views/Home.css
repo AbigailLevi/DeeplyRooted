@@ -1,9 +1,9 @@
 .colorback{
-  background-image: linear-gradient(to bottom right, rgb(57, 180, 83), rgb(197, 166, 25));
+  background-image: linear-gradient(to bottom right, rgba(203, 241, 211, 0.466), rgba(177, 202, 185, 0.404));
 }
 
 .nav2 {
-  background-color: rgba(47, 104, 71, 0.596);
+  background-color: rgba(105, 190, 116, 0.521);
   margin-top: -33px;
 }
 .bottomN {
@@ -28,16 +28,16 @@
 }
 .discribe {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .thehead2 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   font-style: initial;
 }
 .discribe2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .box {
   display: flex;

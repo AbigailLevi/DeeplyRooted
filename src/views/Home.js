@@ -1,16 +1,35 @@
 import React, { useState } from "react";
 import "./Home.css";
-import Cards from "../views/Cards";
+import Card from "../views/Card";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  const [items, Setitems] = useState ([
-    { 'title':'Avocado Shampoo', 
-      'paragraph':'Video to hair wash', 'image':'https://cdn.shopify.com/s/files/1/0041/8349/0671/products/Avocado_300x300.jpg?v=1539846461'},
-   {  'title':'Body Scrub',
-      'paragraph':'Home made body scrub', 'image': 'https://i1.wp.com/ngcblog.naturesgardencandles.com/wp-content/uploads/2018/06/shutterstock_539062723-300x300.jpg?resize=300%2C300'}, 
-   {'title':'Essential Bath', 
-    'paragraph':'Great bath to enjoy for peace and alone time', 'image': 'https://mike-vom-mars.com/blog/wp-content/uploads/2015/11/android_animated_nature_relaxation_relax_entspannung_entspannen_nature_natur_naturgerausche_nature_sounds_asmr_02-300x300.jpg'}]);
-
+  const [items] = useState([
+    {
+      title: "Avocado Shampoo",
+      paragraph:
+        "The main ingredients avocado and aloe will help with growth and moisture",
+      link: "https://www.youtube.com/watch?v=h83jRsv9oCQ",
+      image:
+        "https://i.ytimg.com/an_webp/h83jRsv9oCQ/mqdefault_6s.webp?du=3000&sqp=COT1qPMF&rs=AOn4CLAoqTPG59H-hj2gUuBfjvVGWmpbuA"
+    },
+    {
+      title: "Body Scrub",
+      paragraph:
+        "Home made body scrub, which helps exfoliate the body for any dead skin cells",
+      link: "https://www.youtube.com/watch?v=7cZesX1mtSQ",
+      image:
+        "https://i.ytimg.com/an_webp/7cZesX1mtSQ/mqdefault_6s.webp?du=3000&sqp=COjqqPMF&rs=AOn4CLD6G7j7mJtdJfgC6DwNlEvnlAKRtA"
+    },
+    {
+      title: "Essential Bath",
+      paragraph:
+        "An essential bath to have when you need some space, peace, and alone time",
+      link: "https://www.youtube.com/watch?v=evVkGuSADSU",
+      image:
+        "https://i.ytimg.com/an_webp/evVkGuSADSU/mqdefault_6s.webp?du=3000&sqp=CLXtqPMF&rs=AOn4CLA8VUzL4grd2LDD7ibPFslm_VUymA"
+    }
+  ]);
 
   return (
     <div className="colorback">
@@ -23,7 +42,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <nav className="nav2 navbar navbar-expand-lg navbar-dark">
+      <nav className="nav2 navbar navbar-expand-sm navbar-dark">
         <button
           className="navbar-toggler"
           type="button"
@@ -41,7 +60,8 @@ const Home = () => {
         >
           <div className="bottomN navbar-nav">
             <a className="firstnav-item nav-link active" href="#">
-              Face <span className="sr-only">(current)</span>
+              <Link to="/home/face">Face</Link>{" "}
+              <span className="sr-only">(current)</span>
             </a>
             <a className="secondnav-item nav-link" href="#">
               Body
@@ -62,20 +82,28 @@ const Home = () => {
       </nav>
       <h1 className="thehead">Deeply rooted to the earth</h1>
       <h3 className="thehead">Videos</h3>
-      <p className="discribe">These videos helps with things to buy or do it yourself. </p>
+      <p className="discribe">
+        These videos helps with things to buy or do it yourself.{" "}
+      </p>
       <div class="box">
-        {items.map((item, index)=> {
+        {items.map((item, index) => {
           return (
-            <Cards key={index} title={item.title} paragraph={item.paragraph} image={item.image}/>
-          )
+            <Card
+              key={index}
+              title={item.title}
+              paragraph={item.paragraph}
+              image={item.image}
+              link={item.link}
+            />
+          );
         })}
       </div>
       <h1 className="thehead2">Deeply rooted to your soul</h1>
       <p className="discribe2">hi ht hi hih hih hih hih hih </p>
       <div class="box">
-        <Cards />
-        <Cards />
-        <Cards />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );

@@ -1,0 +1,12 @@
+.homebody{
+    background-image: linear-gradient(rgba(214, 226, 192, 0.808), rgba(185, 204, 99, 0.637));
+    height: 200px;
+}
+.Homejumbotron{
+    margin: auto;
+    width: 95%;
+}
+.display-4{
+    font-style: italic;
+    font-size: 100px; 
+}

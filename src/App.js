@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Intro from "./views/Intro";
 import NavBar from "./components/Navbar";
+import Face from "./views/Face";
 
 function App() {
   return (
@@ -26,8 +27,11 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <Route path="/home/face">
+            <Face />
+          </Route>
           <Route path="/home">
-            <Home /> 
+            <Home />
           </Route>
           <Route path="/" exact={true}>
             <Redirect to="/intro" />
