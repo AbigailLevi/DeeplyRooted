@@ -1,16 +1,43 @@
 .navbar {
   width: 100%;
-  height: 90px;
-  margin: 0 auto;
-  background-color: rgba(36, 155, 46, 0.582);
+  height: 65px;
+  background-image: linear-gradient(rgb(85,107,47),  rgb(85,107,47));
 }
 .logo-img {
+  max-width: none;  
   height: 55px;
-  width: 250px;
-  margin-top: -18px; 
+  width: 160px;
+  margin-top: -8px; 
 }
 .navbar-right{
   font-size: 20px;
   
 }
-
+/* sets base style for each page */
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  
+  /* set background image per page */
+  .intro-bg {
+    background: url(https://cdn.shopify.com/s/files/1/1035/6955/files/cocoabutter_2048x2048.jpg?v=1520984656) no-repeat center center fixed;  
+   /* background-image: radial-gradient(rgb(255, 255, 255), rgb(214, 203, 155), rgb(207, 200, 97));*/
+   height: 560px; 
+  /* background-image: linear-gradient(rgb(185, 81, 185), rgb(127, 216, 179)); */
+  }
+  .login-bg {
+   /* background: url(https://www.wikihow.com/images/0/0a/Make-Your-Own-Body-Lotion-Step-12.jpg) no-repeat center center fixed; */
+  padding-top: 1px; 
+  background-image: linear-gradient(rgba(253, 255, 255, 0.897), rgb(100, 157, 184));
+  }
+  .home-bg {
+  /* background: url(https://images.wallpaperscraft.com/image/stone_flower_power_of_nature_138718_1920x1080.jpg) no-repeat center center fixed; */
+  background-color: rgba(229, 243, 226, 0.493);  
+}
+.face-bg{
+  background-color: white;
+  height: 560px;
+}

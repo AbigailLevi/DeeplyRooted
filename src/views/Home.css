@@ -1,46 +1,57 @@
-.colorback{
-  background-image: linear-gradient(to bottom right, rgba(203, 241, 211, 0.466), rgba(177, 202, 185, 0.404));
+.jumbotron{
+  height: 425px;
+  background-color: white;
+}
+img {
+  float: left;
+  width: 50%;
+  height: 425px;
+  margin-top: -64px;
 }
 
-.nav2 {
-  background-color: rgba(105, 190, 116, 0.521);
-  margin-top: -33px;
+.cover {
+    object-fit: cover;
 }
-.bottomN {
-  margin: auto;
-  justify-content: space-between;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 50%;
 }
-.jumbotron {
-  background-image: url("https://mission-produce-static.sfo2.digitaloceanspaces.com/our-avocados/our-avocado-header@2x.jpg");
-  height: 600px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 1px solid #ff6a00;
+.right-title{
+  float: right;
+  margin-top: -64px;
+  height: 425px;
+  width: 50%;
+  background-color: rgba(165, 206, 209, 0.692);
 }
-.jumbotron .container {
-  position: relative;
-  top: 50px;
+.titleJ{
+  text-align: center;
+  padding-top: 100px;
+  color: black;
+  font-family: serif;
+}
+.paraJ{
+  
+  color: rgb(85,107,47);
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .thehead {
+  margin-top: -20px;
   text-align: center;
-  margin-top: 20px;
-  font-style: initial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black ;
 }
-.discribe {
+.card{
+  margin: auto;
+  margin-top: 80px;
+ 
+}
+.card-img-top{
+  height: 400px;
+  border: 1px solid black;
+}
+.card-title{
   text-align: center;
-  margin-bottom: 10px;
-}
-.thehead2 {
-  text-align: center;
-  margin-top: 20px;
-  font-style: initial;
-}
-.discribe2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }

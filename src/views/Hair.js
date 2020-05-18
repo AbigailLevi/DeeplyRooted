@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./Body.css";
+import "./Hair.css";
 
 
-const Body = () => {
+const Hair = () => {
 return(
     <div>
     hi
@@ -10,4 +10,4 @@ return(
   );
 };
 
-export default Body;
+export default Hair;

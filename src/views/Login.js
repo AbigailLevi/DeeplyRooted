@@ -29,10 +29,11 @@ const Login = () => {
       });
   };
   return (
+    <html className="login-bg">
     <div className="login">
       <div className="login__container">
         <div className="login__container--img">
-          <h1 className="login2">Log in</h1>
+          <h1 className="login2">Login</h1>
         </div>
         <div className="login__container--input">
           <form onSubmit={formOnSubmitHandler}>
@@ -59,6 +60,7 @@ const Login = () => {
         </div>
       </div>
     </div>
+    </html>
   );
 };
 export default Login;

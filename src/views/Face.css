@@ -1,12 +1,40 @@
-.homebody{
-    background-image: linear-gradient(rgba(214, 226, 192, 0.808), rgba(185, 204, 99, 0.637));
-    height: 200px;
+.JumboF{
+height: 50%;
+background-image: linear-gradient(rgb(253, 249, 184),rgba(183, 238, 120, 0.938));
 }
-.Homejumbotron{
-    margin: auto;
-    width: 95%;
+.display{
+text-align: center;
+font-size: 80px;
 }
-.display-4{
-    font-style: italic;
-    font-size: 100px; 
+.lead{
+text-align: center;
+}
+.AloeH{
+/* background-color: violet; */
+height: 50px;
+text-align: center;
+padding-top: 13px;
+font-size: 20px;
+}
+.AloeD{
+/* background-color: purple; */
+height: 350px;
+}
+.Lside{
+/* background-color: red; */
+width: 50%;
+height: 350px;
+}
+.Rside{
+ /* background-color: blue; */
+width: 50%;
+height: 350px;
+text-align: center;
+padding-top: 50px;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+}
+.imgA{
+height: 350px;
+margin-top: 0.1px;
 }

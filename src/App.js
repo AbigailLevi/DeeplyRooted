@@ -14,12 +14,14 @@ import {
 import Intro from "./views/Intro";
 import NavBar from "./components/Navbar";
 import Face from "./views/Face";
+import Body from "./views/Body";
+import Hair from "./views/Hair";
 
 function App() {
   return (
     <React.Fragment>
       <Router>
-        <NavBar />
+        {<NavBar /> }
         <Switch>
           <Route path="/intro">
             <Intro />
@@ -29,6 +31,12 @@ function App() {
           </Route>
           <Route path="/home/face">
             <Face />
+          </Route>
+          <Route path="/home/body">
+            <Body />
+          </Route>
+          <Route path="/home/hair">
+            <Hair />
           </Route>
           <Route path="/home">
             <Home />

@@ -1,26 +1,28 @@
+
 .login {
   width: 100%;
-  height: 840px;
+  height: 508px;
 }
 .login__container {
-  width: 40%;
+  width: 43%;
   margin: 3% auto;
   height: auto;
-  background-color: rgba(151, 219, 96, 0.3);
+  border: 2px solid black;
+  background-color: rgba(237, 240, 215, 0.397);
   display: flex;
   flex-direction: column;
   border-radius: 25px;
 }
 .login__container--img {
+  max-width: none;
   width: 100%;
-  height: 250px;
-  background-image: url(https://cdn.shopify.com/s/files/1/0685/3787/articles/1875_grande.jpg?v=1466314413);
+  height: 80px;
+  background-image: linear-gradient(rgba(160, 238, 221, 0.897), rgb(71, 122, 114));
   object-fit: cover;
   background-size: 100% 100%;
   border-radius: 20px 20px 0px 0px;
   text-align: center;
-  padding-top: 150px;
-  opacity: 0.6;
+  padding-top: 15px;
 }
 .login__container--input {
   display: flex;
@@ -46,19 +48,19 @@
 }
 .login__container--input label {
   font-style: bold;
-  font-size: 120%;
+  font-size: 125%;
   padding-right: 10px;
   margin-left: 50%;
 }
 .button {
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  background-color: rgb(112, 196, 211);
   border-style: none;
   font-size: 16px;
   font-weight: bold;
-  height: 50px;
-  width: 125%;
-  margin-left: 50%;
+  height: 60px;
+  width: 85%;
+  margin-left: 65%;
   outline: none;
 }
 .login2 {

@@ -11,9 +11,9 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="mx-auto order-0">
-        <a className="navbar-brand mx-auto" href="#">
-          <img className="logo-img img-fluid" src={image} alt="logo" />
+      <div className="">
+        <a className="navbar-brand" href="#">
+          <img className="logo-img" src={image} alt="logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -32,7 +32,7 @@ const NavBar = () => {
           <li className="nav-item">
             <a className="nav-link" href="#">
             <div className="navbar-right mr-2 navbar-right">
-              <Link to="/login">Log In</Link>
+              <Link to="/login">Login</Link>
             </div>
             </a>
           </li>
